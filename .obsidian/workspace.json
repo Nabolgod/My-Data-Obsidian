@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 300
   },
   "right": {
     "id": "44d4a2bd49225ec6",
@@ -160,21 +160,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7265e290be1ae368",
+  "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
     "ООП Виноградов/Инкапсуляция.md",
-    "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
+    "ООП Виноградов/Перегрузка.md",
+    "ООП Виноградов/Наследование.md",
     "Git",
     "FastAPI",
     "ООП Виноградов",
