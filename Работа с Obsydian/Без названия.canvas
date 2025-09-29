@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"56cbc0f638bd846a","x":0,"y":0,"width":400,"height":400,"type":"file","file":"ООП Виноградов/Наследование и Полиморфизм.md"},
+		{"id":"69da3ed67ca79457","x":-380,"y":-480,"width":400,"height":400,"type":"file","file":"ООП Виноградов/Инкапсуляция.md"},
+		{"id":"102abf35198e5eb3","x":-360,"y":60,"width":250,"height":60,"type":"text","text":"Основы ООП"}
+	],
+	"edges":[
+		{"id":"e293b989d9c06128","fromNode":"56cbc0f638bd846a","fromSide":"top","toNode":"69da3ed67ca79457","toSide":"bottom"},
+		{"id":"4c812447593c4bd8","fromNode":"102abf35198e5eb3","fromSide":"bottom","toNode":"56cbc0f638bd846a","toSide":"left"},
+		{"id":"191fb6ed6a1e72f8","fromNode":"102abf35198e5eb3","fromSide":"top","toNode":"69da3ed67ca79457","toSide":"bottom"}
+	]
+}
