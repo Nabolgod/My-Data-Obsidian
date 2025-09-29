@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Работа с Obsydian/Начало.md",
+                "file": "Templates/Первый шаблон.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Начало"
+              "title": "Первый шаблон"
             }
           }
         ],
@@ -202,10 +202,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7265e290be1ae368",
+  "active": "380a986461fea36f",
   "lastOpenFiles": [
-    "Работа с Obsydian/Связь.md",
     "Работа с Obsydian/Начало.md",
+    "Templates/Первый шаблон.md",
+    "Templates",
+    "Работа с Obsydian/Связь.md",
     "Работа с Obsydian/Без названия.canvas",
     "ООП Виноградов/Наследование и Полиморфизм.md",
     "ООП Виноградов/Инкапсуляция.md",
