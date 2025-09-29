@@ -42,17 +42,14 @@
             "id": "380a986461fea36f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Работа с Obsydian/Без названия.canvas",
-                "viewState": {
-                  "x": 10,
-                  "y": -40,
-                  "zoom": 0
-                }
+                "file": "Работа с Obsydian/Начало.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Без названия"
+              "icon": "lucide-file",
+              "title": "Начало"
             }
           }
         ],
@@ -205,11 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "380a986461fea36f",
+  "active": "7265e290be1ae368",
   "lastOpenFiles": [
+    "Работа с Obsydian/Связь.md",
     "Работа с Obsydian/Начало.md",
     "Работа с Obsydian/Без названия.canvas",
-    "Работа с Obsydian/Связь.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
     "ООП Виноградов/Инкапсуляция.md",
     "Работа с Obsydian",
