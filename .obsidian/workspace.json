@@ -25,12 +25,14 @@
             "id": "98377092470e30ff",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "FastAPI/Преимущества и недостатки FastAPI.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "примечания к выпуску 1.9.14"
+              "icon": "lucide-file",
+              "title": "Преимущества и недостатки FastAPI"
             }
           }
         ],
@@ -207,6 +209,9 @@
   },
   "active": "98377092470e30ff",
   "lastOpenFiles": [
+    "FastAPI/Что такое Depends в FastAPI.md",
+    "FastAPI/Преимущества и недостатки FastAPI.md",
+    "FastAPI/Загрузка файлов на FastAPI.md",
     "Работа с Obsydian/Таблица фрукты.md",
     "Git/Основные команды GIT.md",
     "СУБД.md",
