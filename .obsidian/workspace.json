@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6504f8211d53eecd",
+        "id": "6807085f9f147167",
         "type": "tabs",
         "children": [
           {
-            "id": "f0e6737fc04a0b8d",
+            "id": "33adfd21d8f9353b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
+                "file": "Git/Основные команды GIT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Понятие алгоритма. Свойства алгоритма."
+              "title": "Основные команды GIT"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 200
   },
   "right": {
     "id": "44d4a2bd49225ec6",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ООП Виноградов/Инкапсуляция.md",
+                "file": "Работа с Obsydian/Таблица фрукты.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Инкапсуляция"
+              "title": "Обратные ссылки для Таблица фрукты"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ООП Виноградов/Инкапсуляция.md",
+                "file": "Работа с Obsydian/Таблица фрукты.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Инкапсуляция"
+              "title": "Исходящие ссылки из Таблица фрукты"
             }
           },
           {
@@ -142,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ООП Виноградов/Инкапсуляция.md",
+                "file": "Работа с Obsydian/Таблица фрукты.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Инкапсуляция"
+              "title": "Структура Таблица фрукты"
             }
           },
           {
-            "id": "04add863bc3f28b2",
+            "id": "f32c9a41b5f31643",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -160,8 +160,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "910e8b241c69d242",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -170,34 +181,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f0e6737fc04a0b8d",
+  "active": "33adfd21d8f9353b",
   "lastOpenFiles": [
-    "Работа с Obsydian/Начало.md",
-    "Работа с Obsydian/Без названия.canvas",
-    "Работа с Obsydian/2025-09-30.md",
-    "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
-    "СУБД.md",
-    "ООП Виноградов/Наследование и Полиморфизм.md",
-    "Алгоритмы и структуры данных/Первая лекция.md",
-    "Алгоритмы и структуры данных",
-    "ООП Виноградов/Инкапсуляция.md",
     "Работа с Obsydian/Таблица фрукты.md",
-    "Работа с Obsydian/Связь.md",
-    "Работа с Obsydian",
+    "Git/Основные команды GIT.md",
+    "СУБД.md",
+    "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
+    "ООП Виноградов/Инкапсуляция.md",
+    "Работа с Obsydian/2025-09-30.md",
     "Templates/Первый шаблон.md",
+    "Работа с Obsydian/Начало.md",
     "Templates",
+    "Работа с Obsydian/Связь.md",
+    "Работа с Obsydian/Без названия.canvas",
+    "ООП Виноградов/Наследование и Полиморфизм.md",
+    "Работа с Obsydian",
     "ООП Виноградов/Перегрузка.md",
+    "ООП Виноградов/Наследование.md",
     "Git",
     "FastAPI",
     "ООП Виноградов",
