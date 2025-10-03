@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Обрабатка исключений FastAPI.md",
+                "file": "FastAPI/Миграции Alembic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Обрабатка исключений FastAPI"
+              "title": "Миграции Alembic"
             }
           }
         ]
@@ -194,24 +194,25 @@
   },
   "active": "33adfd21d8f9353b",
   "lastOpenFiles": [
+    "Работа с Obsydian/Начало.md",
+    "Работа с Obsydian/Связь.md",
+    "Работа с Obsydian/Без названия.canvas",
+    "Работа с Obsydian/2025-09-30.md",
+    "FastAPI/Миграции Alembic.md",
+    "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
     "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "СУБД.md",
     "`HTTPException`.md",
     "Git/Основные команды GIT.md",
-    "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Преимущества и недостатки FastAPI.md",
     "FastAPI/Что такое Depends в FastAPI.md",
     "FastAPI/Загрузка файлов на FastAPI.md",
     "Работа с Obsydian/Таблица фрукты.md",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
     "ООП Виноградов/Инкапсуляция.md",
-    "Работа с Obsydian/2025-09-30.md",
     "Templates/Первый шаблон.md",
-    "Работа с Obsydian/Начало.md",
     "Templates",
-    "Работа с Obsydian/Связь.md",
-    "Работа с Obsydian/Без названия.canvas",
     "ООП Виноградов/Наследование и Полиморфизм.md",
     "Работа с Obsydian",
     "ООП Виноградов/Перегрузка.md",

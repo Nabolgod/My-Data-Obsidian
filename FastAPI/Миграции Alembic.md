@@ -1,0 +1,65 @@
+Две важные консольные команды, чтобы накатить изменения в БД.
+
+После создания модели данных:
+
+```python
+from src.database import Base  
+from sqlalchemy.orm import Mapped, mapped_column  
+from sqlalchemy import ForeignKey, String  
+  
+  
+class RoomsORM(Base):  
+    __tablename__ = "rooms"  
+  
+    id: Mapped[int] = mapped_column(primary_key=True)  
+    hotel_id: Mapped[int] = mapped_column(ForeignKey("hotels.id"))  
+    title: Mapped[str] = mapped_column(String(length=100))  
+    description: Mapped[str | None]  
+    price: Mapped[int]  
+    quantity: Mapped[int]
+
+```
+С помощью консольной команды:
+	alembic revision --autogenerate -m "Текст коммита"
+Мы таким образом генерируем новую [[миграцию]].
+
+Вид миграции:
+
+
+```python
+"""initial migration rooms  
+  
+Revision ID: 8fc1a940c8a7  
+Revises: 7f85d342381e  
+Create Date: 2025-10-03 10:16:18.148627  
+  
+"""  
+from typing import Sequence, Union  
+  
+from alembic import op  
+import sqlalchemy as sa  
+  
+revision: str = '8fc1a940c8a7'  
+down_revision: Union[str, Sequence[str], None] = '7f85d342381e'  
+branch_labels: Union[str, Sequence[str], None] = None  
+depends_on: Union[str, Sequence[str], None] = None  
+  
+  
+def upgrade() -> None:  
+    op.create_table('rooms',  
+                    sa.Column('id', sa.Integer(), nullable=False),  
+                    sa.Column('hotel_id', sa.Integer(), nullable=False),  
+                    sa.Column('title', sa.String(length=100), nullable=False),  
+                    sa.Column('description', sa.String(), nullable=True),  
+                    sa.Column('price', sa.Integer(), nullable=False),  
+                    sa.Column('quantity', sa.Integer(), nullable=False),  
+                    sa.ForeignKeyConstraint(['hotel_id'], ['hotels.id'], ),  
+                    sa.PrimaryKeyConstraint('id')  
+                    )  
+  
+  
+def downgrade() -> None:  
+    op.drop_table('rooms')
+```
+Чтобы внести эту таблицу в базу данных мы используем консольную команду:
+	alembic upgrade head ()
