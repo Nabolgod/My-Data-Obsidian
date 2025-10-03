@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Циклы и прочее с Савельевой.md",
+                "file": "Python/Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Циклы и прочее с Савельевой"
+              "title": "Series"
             }
           }
         ]
@@ -183,9 +183,9 @@
   },
   "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
-    "DataFrame.md",
-    "Series.md",
     "Python/Циклы и прочее с Савельевой.md",
+    "Python/Series.md",
+    "Python/DataFrame.md",
     "FastAPI/Преимущества и недостатки FastAPI.md",
     "Python",
     "FastAPI/Обрабатка исключений FastAPI.md",
