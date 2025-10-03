@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6807085f9f147167",
+        "id": "0a9e1ace57fe953f",
         "type": "tabs",
         "children": [
           {
-            "id": "33adfd21d8f9353b",
+            "id": "eefc030eae4874ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "FastAPI/Миграции Alembic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Миграции Alembic"
             }
           }
         ]
@@ -192,21 +192,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "33adfd21d8f9353b",
+  "active": "eefc030eae4874ce",
   "lastOpenFiles": [
+    "FastAPI/Загрузка файлов на FastAPI.md",
+    "FastAPI/Что такое Depends в FastAPI.md",
+    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
+    "FastAPI/Преимущества и недостатки FastAPI.md",
+    "FastAPI/Обрабатка исключений FastAPI.md",
+    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
+    "FastAPI/Миграции Alembic.md",
+    "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
+    "ООП Виноградов/Инкапсуляция.md",
     "conflict-files-obsidian-git.md",
     "Python/Циклы и прочее с Савельевой.md",
     "Python/Series.md",
     "Python/DataFrame.md",
     "Python",
-    "FastAPI/Загрузка файлов на FastAPI.md",
-    "FastAPI/Миграции Alembic.md",
-    "FastAPI/Обрабатка исключений FastAPI.md",
-    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
-    "FastAPI/Преимущества и недостатки FastAPI.md",
-    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
-    "FastAPI/Что такое Depends в FastAPI.md",
     "Работа с Obsydian/Начало.md",
     "Работа с Obsydian/Связь.md",
     "Работа с Obsydian/Без названия.canvas",
@@ -216,11 +218,9 @@
     "Git/Основные команды GIT.md",
     "Работа с Obsydian/Таблица фрукты.md",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
-    "ООП Виноградов/Инкапсуляция.md",
     "Templates/Первый шаблон.md",
     "Templates",
     "Работа с Obsydian",
-    "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование.md",
     "Git",
     "FastAPI",
