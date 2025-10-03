@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Загрузка файлов на FastAPI.md",
+                "file": "ООП Виноградов/Наследование и Полиморфизм.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Загрузка файлов на FastAPI"
+              "title": "Наследование и Полиморфизм"
             }
           }
         ]
@@ -194,6 +194,7 @@
   },
   "active": "33adfd21d8f9353b",
   "lastOpenFiles": [
+    "FastAPI/Загрузка файлов на FastAPI.md",
     "FastAPI/Миграции Alembic.md",
     "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
@@ -207,7 +208,6 @@
     "СУБД.md",
     "`HTTPException`.md",
     "Git/Основные команды GIT.md",
-    "FastAPI/Загрузка файлов на FastAPI.md",
     "Работа с Obsydian/Таблица фрукты.md",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
     "ООП Виноградов/Инкапсуляция.md",
