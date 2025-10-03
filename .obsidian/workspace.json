@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Основные команды GIT.md",
+                "file": "FastAPI/Зависимости.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Основные команды GIT"
+              "title": "Зависимости"
             }
           }
         ]
@@ -194,6 +194,8 @@
   },
   "active": "eefc030eae4874ce",
   "lastOpenFiles": [
+    "Git/Основные команды GIT.md",
+    "FastAPI/Зависимости.md",
     "FastAPI/Миграции Alembic.md",
     "FastAPI/Загрузка файлов на FastAPI.md",
     "FastAPI/Что такое Depends в FastAPI.md",
@@ -215,7 +217,6 @@
     "Работа с Obsydian/2025-09-30.md",
     "СУБД.md",
     "`HTTPException`.md",
-    "Git/Основные команды GIT.md",
     "Работа с Obsydian/Таблица фрукты.md",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
     "Templates/Первый шаблон.md",
