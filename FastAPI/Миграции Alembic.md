@@ -68,3 +68,13 @@ def downgrade() -> None:
 	*alembic downgrade* *номер_ревизии* 
 	*alembic downgrade -1* # можно откатиться на предыдущую миграцию
 
+Для полного отката БД следующие шаги:
+
+1. Откатить все миграции:
+   *alembic downgrade base*
+2. Удалить папку с миграциями (опционально)
+   *rm -r src/migrations/versions/*
+3. Переинициализировать Alembic (если нужно)
+   *alembic stamp head*
+4. Создать начальную миграцию заново:
+5. 
