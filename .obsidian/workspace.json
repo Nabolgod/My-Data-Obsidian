@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Преимущества и недостатки FastAPI.md",
+                "file": "Python/Циклы и прочее с Савельевой.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Преимущества и недостатки FastAPI"
+              "title": "Циклы и прочее с Савельевой"
             }
           }
         ]
@@ -181,8 +181,10 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "7265e290be1ae368",
+  "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
+    "FastAPI/Преимущества и недостатки FastAPI.md",
+    "Python/Циклы и прочее с Савельевой.md",
     "Python",
     "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Миграции Alembic.md",
@@ -193,7 +195,6 @@
     "Git",
     "FastAPI/Что такое Depends в FastAPI.md",
     "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
-    "FastAPI/Преимущества и недостатки FastAPI.md",
     "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
     "FastAPI",
     "Работа с Obsydian/Начало.md",
