@@ -183,8 +183,10 @@
   },
   "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
-    "FastAPI/Преимущества и недостатки FastAPI.md",
+    "DataFrame.md",
+    "Series.md",
     "Python/Циклы и прочее с Савельевой.md",
+    "FastAPI/Преимущества и недостатки FastAPI.md",
     "Python",
     "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Миграции Alembic.md",
