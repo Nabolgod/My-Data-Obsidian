@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
+                "file": "FastAPI/Обрабатка исключений FastAPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Отношение многие-ко-многим в SQLAlchemy"
+              "title": "Обрабатка исключений FastAPI"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "33adfd21d8f9353b",
   "lastOpenFiles": [
-    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
+    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "СУБД.md",
     "`HTTPException`.md",
     "Git/Основные команды GIT.md",
