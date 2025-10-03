@@ -20,7 +20,7 @@ class RoomsORM(Base):
 
 ```
 С помощью консольной команды:
-	alembic revision --autogenerate -m "Текст коммита"
+	*alembic revision --autogenerate -m "Текст коммита"*
 Мы таким образом генерируем новую [[миграцию]].
 
 Вид миграции:
@@ -62,4 +62,5 @@ def downgrade() -> None:
     op.drop_table('rooms')
 ```
 Чтобы внести эту таблицу в базу данных мы используем консольную команду:
-	alembic upgrade head ()
+	*alembic upgrade head* # для накатывания самой последней миграции
+	*alembic upgrade номер_ревизии* # для конкретной миграции по её номеру '8fc1a940c8a7'
