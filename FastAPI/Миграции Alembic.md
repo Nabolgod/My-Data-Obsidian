@@ -77,4 +77,5 @@ def downgrade() -> None:
 3. Переинициализировать Alembic (если нужно)
    *alembic stamp head*
 4. Создать начальную миграцию заново:
-5. 
+   *alembic revision --autogenerate -m "initial"*
+   *alembic upgrade head*

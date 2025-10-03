@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Миграции Alembic.md",
+                "file": "Git/Основные команды GIT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Миграции Alembic"
+              "title": "Основные команды GIT"
             }
           }
         ]
@@ -194,13 +194,13 @@
   },
   "active": "eefc030eae4874ce",
   "lastOpenFiles": [
+    "FastAPI/Миграции Alembic.md",
     "FastAPI/Загрузка файлов на FastAPI.md",
     "FastAPI/Что такое Depends в FastAPI.md",
     "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "FastAPI/Преимущества и недостатки FastAPI.md",
     "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
-    "FastAPI/Миграции Alembic.md",
     "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
     "ООП Виноградов/Инкапсуляция.md",
