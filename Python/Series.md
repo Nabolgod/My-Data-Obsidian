@@ -8,5 +8,9 @@ obj2 = pd.Series([4, 7, -5, 3], index=['d', 'b', 'a', 'c'])
 print(obj2) # d 4; b 7 ... dtype: int64 (тип numpy)
 
 fruits = np.array(['apple', 'orange', 'banan'])
+series2 = pd.Series(fruits)
+print(series2) # 0 "apple"; ... dtype: object
 
+obj2[obj2 > 0] # d 4; b 7
+obj2 * 2 # 8 ...
 ```
