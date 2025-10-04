@@ -8,4 +8,5 @@ Thumbs.db
 .obsidian/workspace.json
 
 # Плагины (опционально - если хотите синхронизировать настройки)
-# .obsidian/plugins/
+# .obsidian/plugins/.obsidian/workspace.json
+.obsidian/workspaces/
