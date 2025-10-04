@@ -21,10 +21,18 @@ class Base(DeclarativeBase):
 ```python
 async with async_session_maker() as session:
 	add_hotel_stmt = alh.insert(HotelsORM).values(**hotel_data.model_dump())
-	print(add_hotel_stmt)
+	print(add_hotel_stmt) # 1 вариант
+	print(add_hotel_stmt.compile(compile_kwargs={"literal_binds"=True})) # 2
+	print(add_hotel_stmt.compile(bind= engine, compile_kwargs={"literal_binds"=True})) # 3
 	await session.execute(add_hotel_stmt)
 	await session.commit()
 ```
 Через <mark style="background: #FFF3A3A6;">print(add_hotel_stmt)</mark>, где переменная является командой для бд.
 Результат такого вывода:
 ![[Снимок экрана 2025-10-04 в 23.01.10.png]]
+
+Через <mark style="background: #FFF3A3A6;">print(add_hotel_stmt.compile(compile_kwargs={"literal_binds"=True}))</mark>:
+![[Снимок экрана 2025-10-04 в 23.09.11.png]]
+
+Через <mark style="background: #FFF3A3A6;">print(add_hotel_stmt.compile(bind= engine, compile_kwargs={"literal_binds"=True}))</mark>:
+![[Снимок экрана 2025-10-04 в 23.14.42.png]]

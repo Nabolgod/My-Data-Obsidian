@@ -11,14 +11,12 @@
             "id": "f0e6737fc04a0b8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "FastAPI/DEBUG запросов SQLAclchemy.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/Снимок экрана 2025-10-04 в 23.14.42.png"
               },
-              "icon": "lucide-file",
-              "title": "DEBUG запросов SQLAclchemy"
+              "icon": "lucide-image",
+              "title": "Снимок экрана 2025-10-04 в 23.14.42"
             }
           },
           {
@@ -195,10 +193,14 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f0e6737fc04a0b8d",
+  "active": "7265e290be1ae368",
   "lastOpenFiles": [
-    "Снимок экрана 2025-10-04 в 23.01.10.png",
-    "Снимок экрана 2025-10-04 в 22.48.53.png",
+    "Images",
+    "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
+    "Images/Снимок экрана 2025-10-04 в 23.01.10.png",
+    "Images/Снимок экрана 2025-10-04 в 22.48.53.png",
+    "FastAPI/DEBUG запросов SQLAclchemy.md",
+    "Images/Снимок экрана 2025-10-04 в 23.14.42.png",
     "FastAPI/Загрузка файлов на FastAPI.md",
     "Python/Series.md",
     "Python/Циклы и прочее с Савельевой.md",
@@ -208,7 +210,6 @@
     "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
     "FastAPI/Обрабатка исключений FastAPI.md",
-    "FastAPI/DEBUG запросов SQLAclchemy.md",
     "Python/DataFrame.md",
     "Python/`HTTPException`.md",
     "Базы Данных",
