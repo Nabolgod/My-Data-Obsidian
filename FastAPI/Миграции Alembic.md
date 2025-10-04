@@ -20,11 +20,10 @@ class RoomsORM(Base):
 
 ```
 С помощью консольной команды:
-	alembic revision --autogenerate -m "Текст коммита"
+	*alembic revision --autogenerate -m "Текст коммита"*
 Мы таким образом генерируем новую [[миграцию]].
 
 Вид миграции:
-
 
 ```python
 """initial migration rooms  
@@ -62,4 +61,21 @@ def downgrade() -> None:
     op.drop_table('rooms')
 ```
 Чтобы внести эту таблицу в базу данных мы используем консольную команду:
-	alembic upgrade head ()
+	*alembic upgrade head* # для накатывания самой последней миграции
+	*alembic upgrade номер_ревизии* # для конкретной миграции по её номеру '8fc1a940c8a7'
+
+Чтобы откатиться на версию назад, используем консольную команду:
+	*alembic downgrade* *номер_ревизии* 
+	*alembic downgrade -1* # можно откатиться на предыдущую миграцию
+
+Для полного отката БД следующие шаги:
+
+1. Откатить все миграции:
+   *alembic downgrade base*
+2. Удалить папку с миграциями (опционально)
+   *rm -r src/migrations/versions/*
+3. Переинициализировать Alembic (если нужно)
+   *alembic stamp head*
+4. Создать начальную миграцию заново:
+   *alembic revision --autogenerate -m "initial"*
+   *alembic upgrade head*
