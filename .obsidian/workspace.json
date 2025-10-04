@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Циклы и прочее с Савельевой.md",
+                "file": "Python/Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Циклы и прочее с Савельевой"
+              "title": "Series"
             }
           },
           {
@@ -195,21 +195,21 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "7265e290be1ae368",
+  "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
+    "FastAPI/Миграции Alembic.md",
+    "FastAPI/Загрузка файлов на FastAPI.md",
+    "FastAPI/Зависимости.md",
+    "Python/Циклы и прочее с Савельевой.md",
     "Python/DataFrame.md",
     "Python/Series.md",
     "Python/`HTTPException`.md",
     "Базы Данных",
     "Базы Данных/СУБД.md",
-    "FastAPI/Зависимости.md",
     "conflict-files-obsidian-git.md",
-    "Python/Циклы и прочее с Савельевой.md",
-    "FastAPI/Миграции Alembic.md",
     "FastAPI/Преимущества и недостатки FastAPI.md",
     "Python",
     "FastAPI/Обрабатка исключений FastAPI.md",
-    "FastAPI/Загрузка файлов на FastAPI.md",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
     "Git/Основные команды GIT.md",
     "Git",
