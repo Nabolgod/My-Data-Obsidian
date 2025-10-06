@@ -11,10 +11,14 @@
             "id": "b852c4efdf0a6896",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "FastAPI/Пагинация и фильтрация.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Пагинация и фильтрация"
             }
           }
         ]
@@ -191,11 +195,12 @@
   "active": "b852c4efdf0a6896",
   "lastOpenFiles": [
     "FastAPI/SELECT эндпоинты через SQLAlchemy.md",
+    "FastAPI/Пагинация и фильтрация.md",
+    "FastAPI/POST эндпоинты через SQLAlchemy.md",
     "[[DEBUG.md",
     "FastAPI/Engine.md",
     "FastAPI/SQLAlchemy.md",
     "FastAPI/Session.md",
-    "FastAPI/POST эндпоинты через SQLAlchemy.md",
     "FastAPI/Миграции Alembic.md",
     "FastAPI/DEBUG запросов SQLAclchemy.md",
     "Images/Снимок экрана 2025-10-04 в 22.48.53.png",
@@ -222,7 +227,6 @@
     "Git/Основные команды GIT.md",
     "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
-    "ООП Виноградов/Инкапсуляция.md",
     "Работа с Obsydian/Без названия.canvas",
     "Templates",
     "Работа с Obsydian",

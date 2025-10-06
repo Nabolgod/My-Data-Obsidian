@@ -1,3 +1,5 @@
+#эндпоинт 
+
 Пример эндпоинта:
 ```python
 from fastapi import Query, FastAPI
@@ -13,7 +15,9 @@ app= FastAPI()
 async def get_hotels():  
     async with async_session_maker() as session:
 	    query = select(HotelORM) 
-	    await session.execute(query)
+	    result = await session.execute(query)
+	    hotels = result.scalars().all()
+	    return hotels
 ```
 
 <mark style="background: #ABF7F7A6;">from sqlalchemy import select</mark> - импортируем функцию SELECT для возврата значений из базы данных.

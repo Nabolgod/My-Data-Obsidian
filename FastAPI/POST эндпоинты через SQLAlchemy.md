@@ -1,3 +1,5 @@
+#эндпоинт
+
 Пример эндпоинта:
 ```python
 from fastapi import Query, FastAPI
