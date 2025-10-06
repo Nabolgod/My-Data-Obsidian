@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "a185615efb554bd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "fb4997b933d25010",
             "type": "leaf",
             "state": {
@@ -35,7 +49,8 @@
               "title": "Миграции Alembic"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,14 +210,17 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f0e6737fc04a0b8d",
+  "active": "a185615efb554bd7",
   "lastOpenFiles": [
+    "FastAPI/Пагинация и фильтрация.md",
+    "FastAPI/SQLAlchemy.md",
+    "conflict-files-obsidian-git.md",
+    "Базы Данных/DBeaver, меняем кодировку.md",
     "FastAPI/DEBUG запросов SQLAclchemy.md",
     "FastAPI/Engine.md",
     "FastAPI/POST эндпоинты через SQLAlchemy.md",
     "FastAPI/Session.md",
     "FastAPI/SELECT эндпоинты через SQLAlchemy.md",
-    "FastAPI/SQLAlchemy.md",
     "Images/Снимок экрана 2025-10-04 в 23.14.42.png",
     "Images",
     "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
@@ -221,7 +239,6 @@
     "Python/`HTTPException`.md",
     "Базы Данных",
     "Базы Данных/СУБД.md",
-    "conflict-files-obsidian-git.md",
     "FastAPI/Преимущества и недостатки FastAPI.md",
     "Python",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
@@ -229,7 +246,6 @@
     "Git",
     "FastAPI/Что такое Depends в FastAPI.md",
     "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
-    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
     "FastAPI",
     "Работа с Obsydian/Без названия.canvas",
     "Алгоритмы и структуры данных",
