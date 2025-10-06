@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/DEBUG запросов SQLAclchemy.md",
+                "file": "FastAPI/SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DEBUG запросов SQLAclchemy"
+              "title": "SQLAlchemy"
             }
           },
           {
@@ -197,6 +197,7 @@
   },
   "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
+    "FastAPI/DEBUG запросов SQLAclchemy.md",
     "FastAPI/Engine.md",
     "FastAPI/POST эндпоинты через SQLAlchemy.md",
     "FastAPI/Session.md",
@@ -207,7 +208,6 @@
     "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
     "Images/Снимок экрана 2025-10-04 в 23.01.10.png",
     "Images/Снимок экрана 2025-10-04 в 22.48.53.png",
-    "FastAPI/DEBUG запросов SQLAclchemy.md",
     "FastAPI/Загрузка файлов на FastAPI.md",
     "Python/Series.md",
     "Python/Циклы и прочее с Савельевой.md",
