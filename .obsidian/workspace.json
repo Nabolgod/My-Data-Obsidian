@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Пагинация и фильтрация.md",
+                "file": "FastAPI/SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Пагинация и фильтрация"
+              "title": "SQLAlchemy"
             }
           }
         ]
@@ -194,15 +194,20 @@
   },
   "active": "b852c4efdf0a6896",
   "lastOpenFiles": [
-    "FastAPI/SELECT эндпоинты через SQLAlchemy.md",
+    "FastAPI/DEBUG запросов SQLAclchemy.md",
+    "FastAPI/SQLAlchemy.md",
     "FastAPI/Пагинация и фильтрация.md",
+    "FastAPI/SELECT эндпоинты через SQLAlchemy.md",
+    "FastAPI/Session.md",
+    "Базы Данных/DBeaver, меняем кодировку.md",
+    "FastAPI/Преимущества и недостатки FastAPI.md",
+    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
+    "FastAPI/Обрабатка исключений FastAPI.md",
+    "FastAPI/Миграции Alembic.md",
+    "Базы Данных/СУБД.md",
     "FastAPI/POST эндпоинты через SQLAlchemy.md",
     "[[DEBUG.md",
     "FastAPI/Engine.md",
-    "FastAPI/SQLAlchemy.md",
-    "FastAPI/Session.md",
-    "FastAPI/Миграции Alembic.md",
-    "FastAPI/DEBUG запросов SQLAclchemy.md",
     "Images/Снимок экрана 2025-10-04 в 22.48.53.png",
     "Images/Снимок экрана 2025-10-04 в 23.01.10.png",
     "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
@@ -210,14 +215,10 @@
     "Работа с Obsydian/2025-09-30.md",
     "FastAPI/Зависимости.md",
     "conflict-files-obsidian-git.md",
-    "Базы Данных/СУБД.md",
     "Базы Данных",
     "Python/`HTTPException`.md",
     "Images",
     "FastAPI/Загрузка файлов на FastAPI.md",
-    "FastAPI/Обрабатка исключений FastAPI.md",
-    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
-    "FastAPI/Преимущества и недостатки FastAPI.md",
     "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "FastAPI/Что такое Depends в FastAPI.md",
     "Python/Циклы и прочее с Савельевой.md",
@@ -226,7 +227,6 @@
     "Python",
     "Git/Основные команды GIT.md",
     "ООП Виноградов/Перегрузка.md",
-    "ООП Виноградов/Наследование и Полиморфизм.md",
     "Работа с Obsydian/Без названия.canvas",
     "Templates",
     "Работа с Obsydian",

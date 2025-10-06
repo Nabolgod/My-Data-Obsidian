@@ -22,7 +22,7 @@ class Base(DeclarativeBase):
 async with async_session_maker() as session:
 	add_hotel_stmt = alh.insert(HotelsORM).values(**hotel_data.model_dump())
 	print(add_hotel_stmt) # 1 вариант
-	print(add_hotel_stmt.compile(compile_kwargs={"literal_binds"=True})) # 2
+	print(add_hotel_stmt.compile(compile_kwargs={"literal_binds": True})) # 2
 	print(add_hotel_stmt.compile(bind= engine, compile_kwargs={"literal_binds"=True})) # 3
 	await session.execute(add_hotel_stmt)
 	await session.commit()
