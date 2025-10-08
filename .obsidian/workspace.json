@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Пагинация и фильтрация.md",
+                "file": "Паттерны/Репозиторий (DAO).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Пагинация и фильтрация"
+              "title": "Репозиторий (DAO)"
             }
           }
         ]
@@ -192,13 +192,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7265e290be1ae368",
+  "active": "b852c4efdf0a6896",
   "lastOpenFiles": [
+    "Именования/src.md",
+    "Именования",
+    "Паттерны/Репозиторий (DAO).md",
+    "Images/Pasted image 20251009012257.png",
+    "FastAPI/Пагинация и фильтрация.md",
+    "Паттерны",
     "FastAPI/SQLAlchemy.md",
     "Базы Данных/SQL-инъекции.md",
     "Базы Данных/DBeaver, меняем кодировку.md",
     "Базы Данных/СУБД.md",
-    "FastAPI/Пагинация и фильтрация.md",
     "FastAPI/Engine.md",
     "Алгоритмы и структуры данных/Сложность алгоритма.md",
     "FastAPI/DEBUG запросов SQLAclchemy.md",
@@ -223,16 +228,12 @@
     "FastAPI/Загрузка файлов на FastAPI.md",
     "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "FastAPI/Что такое Depends в FastAPI.md",
-    "Python/Циклы и прочее с Савельевой.md",
-    "Python/Series.md",
-    "Python/DataFrame.md",
     "Python",
     "Работа с Obsydian/Без названия.canvas",
     "Templates",
     "Работа с Obsydian",
     "Git",
     "FastAPI",
-    "ООП Виноградов",
-    "Алгоритмы и структуры данных"
+    "ООП Виноградов"
   ]
 }
