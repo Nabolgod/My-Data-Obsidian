@@ -40,7 +40,7 @@ async def get_hotels():
 	    query = select(HotelORM) # весь запрос, который работает с моделью данных
 	    result = await session.execute(query)
 ```
-<mark style="background: #BBFABBA6;">query</mark> = select(HotelORM) - именование query используется для работы с запросами SELECT, в иных случаях используется именование <mark style="background: #BBFABBA6;">stmt</mark> (statemate), которое обозначает изменения. Например в [[POST эндпоинты через SQLAlchemy]] 
+[[query]] = select(HotelORM) - именование query используется для работы с запросами SELECT, в иных случаях используется именование [[stmt]] (statemate), которое обозначает изменения. Например в [[POST эндпоинты через SQLAlchemy]] 
 
 В <mark style="background: #FFB86CA6;">result</mark> вернётся не таблица, а питоновский объект, который вернёт [[Engine]]. (итератор)
 ```python

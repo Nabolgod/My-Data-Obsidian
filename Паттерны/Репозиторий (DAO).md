@@ -11,6 +11,35 @@
 Можно начать с создания папки /repositories относительно папки [[src]] и создания в ней файла <mark style="background: #ADCCFFA6;">base.py</mark>, который будет содержать базовый класс от которого все будут наследоваться.
 ```python
 class BaseRepository:
-	async def get_all
-```
+	_model = None
+	
+	def __init__(self, session:
+		self.session = session
+		
+	async def get_all(self):
+		''' Здесь прописана логика возврата всех данных '''
+		
+		query = select(self._model) 
+		result = await self.session.execute(query)
+		return result.scallars.all()
+	
+	async def get_one_or_none(self, **filter_by):
+		''' 
+		Здесь прописана логика возврата одной еденицы данных с
+		определёнными фильтрами.
+		'''
+		
+		query = select(self._model).filter_by(**filter_by)
+		result = await self.session.execute(query)
+		return result.scallars.one_or_none()
+		
+class HotelsRepository(BaseRepository):
+	model = HotelsORM
 
+class RoomsRepository(BaseRepository):
+	model = RoomsORM
+	
+```
+В классе мы принимаем [[Session]] на вход, чтобы все наши методы (запросы в бд например) работали внутри одной сессии и не блокировали соединение.
+
+Также у родительского и в последующем дочерних классов будет атрибут класса [[Model]] для работы с их моделями бд.
