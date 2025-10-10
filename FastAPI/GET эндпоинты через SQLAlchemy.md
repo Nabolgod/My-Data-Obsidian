@@ -1,5 +1,7 @@
 #эндпоинт 
 
+[[GET]] - возврат записей из БД.
+
 Пример эндпоинта:
 ```python
 from fastapi import Query, FastAPI

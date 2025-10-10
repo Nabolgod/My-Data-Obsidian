@@ -1,5 +1,7 @@
 #эндпоинт
 
+[[POST]] - это добавление новой записи в БД.
+
 Пример эндпоинта:
 ```python
 from fastapi import Query, FastAPI
