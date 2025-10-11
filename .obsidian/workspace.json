@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Зависимости.md",
+                "file": "FastAPI/SELECT эндпоинты через SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Зависимости"
+              "title": "SELECT эндпоинты через SQLAlchemy"
             }
           },
           {
@@ -197,6 +197,7 @@
   },
   "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
+    "FastAPI/Зависимости.md",
     "Паттерны/Репозиторий (DAO).md",
     "Алгоритмы и структуры данных/Сложность алгоритма.md",
     "Паттерны",
@@ -216,7 +217,6 @@
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
     "FastAPI/Миграции Alembic.md",
     "FastAPI/Загрузка файлов на FastAPI.md",
-    "FastAPI/Зависимости.md",
     "Git/Основные команды GIT.md",
     "Templates/Первый шаблон.md",
     "FastAPI/SQLAlchemy.md",
