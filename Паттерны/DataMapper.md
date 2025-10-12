@@ -21,14 +21,6 @@ class BaseRepository:
     def __init__(self, session):  
         self.session = session  
   
-    async def exists(self, **filter_by):  
-		query = (  
-            select(self.model)  
-            .filter_by(**filter_by)  
-        )  
-        result = await self.session.execute(query)  
-        return result.scalar_one_or_none() is not None  
-  
     async def get_all(self, *args, **kwargs):  
         query = select(self.model)  
         result = await self.session.execute(query)  
@@ -58,3 +50,84 @@ class BaseRepository:
 В нашем проекте это позволит сделать <mark style="background: #FFB86CA6;">Pydantic - схема</mark>.
 
 Если коротко, то мы хотим, чтобы со стороны бизнес логики отправлялись pydantic-схемы, которы будут содеражть в себе просто данные и в конечном итоге, чтобы ответом от репозитория была та же pydantic-схема с данными.
+## Перепишем проект под базовый DataMapper
+
+### Первое
+Создадим схему Hotel, которая будет соответсовать модели HotelsORM:
+```python
+from src.database import Base  
+from sqlalchemy.orm import Mapped, mapped_column  
+from sqlalchemy import String  
+  
+  
+class HotelsORM(Base):  
+    __tablename__ = "hotels"  
+  
+    id: Mapped[int] = mapped_column(primary_key=True)  
+    title: Mapped[str] = mapped_column(String(length=100))  
+    location: Mapped[str]
+
+
+from pydantic import BaseModel, Field, ConfigDict
+  
+  
+class HotelAdd(BaseModel):  
+    title: str  
+    location: str  
+  
+class Hotel(HotelAdd):  
+    id: int
+    
+    model_config = ConfigDict(from_attributes=True) # можно указать так, чтобы каждый раз не указывать from_attributes=True в примерах ниже, но делать так не стоит.
+```
+### Второе
+В классе репозитория создадим атрибут sheme, который будет содеражать в себе pydantic-схему:
+```python
+class BaseRepository:  
+    model = None  
+    scheme: BaseModel = None
+
+
+class HotelsRepository(BaseRepository):  
+    model = HotelsORM  
+    scheme = Hotel
+```
+### Третье 
+Реализуем преобразование объекта HotelsORM в pydantic-схему Hotel.
+```python
+class BaseRepository:  
+    model = None 
+    scheme: BaseModel = None
+  
+    def __init__(self, session):  
+        self.session = session  
+  
+    async def get_all(self, *args, **kwargs):  
+        query = select(self.model)  
+        result = await self.session.execute(query)  
+        return ([
+	        self.scheme.model_validate(model, from_attributes=True) for model 
+	        in result.scalars.all()
+        ])
+  
+    async def get_on_or_none(self, **filter_by):  
+		query = select(self.model).filter_by(**filter_by)  
+        result = await self.session.execute(query) 
+        model = result.scalars().one_or_none()
+        if model is None:
+	        return None
+	    return self.scheme.model_validate(model, from_attributes=True)
+  
+    async def add(self, data: BaseModel):  
+		add_data_stmt = (  
+            insert(self.model)  
+            .values(**data.model_dump())  
+            .returning(self.model)  
+        )  
+        result = await self.session.execute(add_data_stmt)  
+        model = result.scalars().one()
+        return self.scheme.model_validate(model, from_attributes=True)
+```
+Для того, чтобы сделать из модели pydantic-схему воспользуемся методом <mark style="background: #FFB86CA6;">model_validate</mark>.
+
+<mark style="background: #FFF3A3A6;">from_attributes=True</mark> - ключевой параметр функции model_validate, который позволит достать аттрибуты модели в виде словаря.
