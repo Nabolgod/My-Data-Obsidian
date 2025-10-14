@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6504f8211d53eecd",
+        "id": "dc76d4d9a6e8f924",
         "type": "tabs",
         "children": [
           {
-            "id": "f0e6737fc04a0b8d",
+            "id": "b852c4efdf0a6896",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ООП Виноградов/Перегрузка операторов.md",
+                "file": "HTTP Standart/HTTP методы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Перегрузка операторов"
-            }
-          },
-          {
-            "id": "fb4997b933d25010",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FastAPI/Миграции Alembic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Миграции Alembic"
+              "title": "HTTP методы"
             }
           }
         ]
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ООП Виноградов/Инкапсуляция.md",
+                "file": "Работа с Obsydian/Таблица фрукты.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Инкапсуляция"
+              "title": "Обратные ссылки для Таблица фрукты"
             }
           },
           {
@@ -127,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ООП Виноградов/Инкапсуляция.md",
+                "file": "Работа с Obsydian/Таблица фрукты.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Инкапсуляция"
+              "title": "Исходящие ссылки из Таблица фрукты"
             }
           },
           {
@@ -156,17 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ООП Виноградов/Инкапсуляция.md",
+                "file": "Работа с Obsydian/Таблица фрукты.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Инкапсуляция"
+              "title": "Структура Таблица фрукты"
             }
           },
           {
-            "id": "04add863bc3f28b2",
+            "id": "f32c9a41b5f31643",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -174,8 +160,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "910e8b241c69d242",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,63 +181,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f0e6737fc04a0b8d",
+  "active": "b852c4efdf0a6896",
   "lastOpenFiles": [
+    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
+    "FastAPI/Что такое Depends в FastAPI.md",
+    "FastAPI/DEBUG запросов SQLAclchemy.md",
+    "FastAPI/API.md",
+    "FastAPI/SQLAlchemy.md",
     "FastAPI/Session.md",
-    "ООП Виноградов/Перегрузка операторов.md",
-    "Паттерны/DataMapper.md",
-    "Images/Pasted image 20251012144947.png",
-    "Images/Pasted image 20251012144932.png",
-    "Images/Pasted image 20251012144848.png",
-    "FastAPI/PUT эндпоинты через SQLAlchemy.md",
     "FastAPI/pydantic.md",
-    "Git/Основные команды GIT.md",
-    "FastAPI/Зависимости.md",
-    "conflict-files-obsidian-git.md",
+    "FastAPI/PUT эндпоинты через SQLAlchemy.md",
+    "FastAPI/POST эндпоинты через SQLAlchemy.md",
     "FastAPI/PATCH эндпоинты через SQLAlchemy.md",
-    "FastAPI/DELETE эндпоинты через SQLAlchemy.md",
-    "FastAPI/SELECT эндпоинты через SQLAlchemy.md",
-    "HTTP Standart/PUT.md",
-    "FastAPI/GET эндпоинты через SQLAlchemy.md",
-    "Паттерны/Репозиторий (DAO).md",
-    "Алгоритмы и структуры данных/Сложность алгоритма.md",
-    "Паттерны",
-    "Именования/stmt.md",
-    "Именования/src.md",
-    "Именования/query.md",
-    "Именования",
-    "Базы Данных/SQL-инъекции.md",
-    "Базы Данных/SELECT.md",
-    "Images/Pasted image 20251009012257.png",
+    "FastAPI/Model.md",
+    "HTTP Standart/HTTP методы.md",
     "HTTP Standart/POST.md",
+    "HTTP Standart/PUT.md",
     "HTTP Standart/PATCH.md",
     "HTTP Standart/GET.md",
     "HTTP Standart/DELETE.md",
+    "FastAPI/Подготовка окружения для проекта.md",
+    "Git/Основные команды GIT.md",
+    "FastAPI/Зависимости.md",
+    "Python/Асинхронность.md",
+    "FastAPI/FastAPI.md",
+    "Консольные команды",
+    "FastAPI/Миграции Alembic.md",
+    "Python/Циклы и прочее с Савельевой.md",
+    "Python/Series.md",
+    "Python/DataFrame.md",
+    "Images/Pasted image 20251012144932.png",
+    "Images/Pasted image 20251012144848.png",
+    "Images/Pasted image 20251012144947.png",
+    "Pasted image 20251012144831.png",
     "HTTP Standart",
-    "FastAPI/Model.md",
-    "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
-    "Images/Снимок экрана 2025-10-04 в 23.14.42.png",
-    "Images",
-    "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
-    "Images/Снимок экрана 2025-10-04 в 23.01.10.png",
+    "Именования",
+    "Images/Pasted image 20251009012257.png",
+    "Паттерны",
     "Images/Снимок экрана 2025-10-04 в 22.48.53.png",
+    "Images/Снимок экрана 2025-10-04 в 23.01.10.png",
+    "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
+    "Images/Снимок экрана 2025-10-04 в 23.14.42.png",
     "Базы Данных",
+    "Images",
     "Python",
-    "Git",
-    "FastAPI",
     "Работа с Obsydian/Без названия.canvas",
-    "Алгоритмы и структуры данных",
-    "Работа с Obsydian"
+    "Templates",
+    "Работа с Obsydian",
+    "Git"
   ]
 }
