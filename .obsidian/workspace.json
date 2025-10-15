@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dc76d4d9a6e8f924",
+        "id": "2d774397cbd3cbb4",
         "type": "tabs",
         "children": [
           {
-            "id": "b852c4efdf0a6896",
+            "id": "416d61a192db9bef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Запуск FastAPI.md",
+                "file": "HTTP Standart/Статус коды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Запуск FastAPI"
+              "title": "Статус коды"
             }
           }
         ]
@@ -192,34 +192,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b852c4efdf0a6896",
+  "active": "416d61a192db9bef",
   "lastOpenFiles": [
-    "HTTP Standart/HTTP методы.md",
+    "Именования/stmt.md",
+    "HTTP Standart/Статус коды.md",
+    "Именования/src.md",
+    "Именования/query.md",
+    "ООП Виноградов/Инкапсуляция.md",
+    "ООП Виноградов/Наследование и Полиморфизм.md",
+    "ООП Виноградов/Перегрузка.md",
+    "ООП Виноградов/Перегрузка операторов.md",
+    "FastAPI/PATH-параметры.md",
+    "FastAPI/BODY-запросы.md",
+    "FastAPI/QUERY-параметры.md",
+    "FastAPI/Пагинация и фильтрация.md",
+    "FastAPI/Что такое Depends в FastAPI.md",
+    "FastAPI/API.md",
+    "FastAPI/Подготовка окружения для проекта.md",
+    "FastAPI/GET эндпоинты через SQLAlchemy.md",
+    "FastAPI/PUT эндпоинты через SQLAlchemy.md",
+    "FastAPI/POST эндпоинты через SQLAlchemy.md",
+    "FastAPI/PATCH эндпоинты через SQLAlchemy.md",
     "FastAPI/Запуск FastAPI.md",
+    "HTTP Standart/HTTP методы.md",
     "Базы Данных/SQL-инъекции.md",
     "Базы Данных/SELECT.md",
     "Базы Данных/DBeaver, меняем кодировку.md",
     "Базы Данных/СУБД.md",
-    "Именования/src.md",
-    "Именования/query.md",
-    "Именования/stmt.md",
-    "ООП Виноградов/Перегрузка операторов.md",
-    "ООП Виноградов/Инкапсуляция.md",
     "Паттерны/Репозиторий (DAO).md",
-    "Паттерны/DataMapper.md",
-    "HTTP Standart/PUT.md",
-    "HTTP Standart/POST.md",
-    "HTTP Standart/PATCH.md",
-    "HTTP Standart/DELETE.md",
-    "HTTP Standart/GET.md",
-    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
-    "FastAPI/Что такое Depends в FastAPI.md",
-    "FastAPI/DEBUG запросов SQLAclchemy.md",
-    "FastAPI/API.md",
-    "FastAPI/SQLAlchemy.md",
-    "FastAPI/Session.md",
-    "FastAPI/pydantic.md",
-    "FastAPI/PUT эндпоинты через SQLAlchemy.md",
     "Консольные команды",
     "Images/Pasted image 20251012144932.png",
     "Images/Pasted image 20251012144848.png",
