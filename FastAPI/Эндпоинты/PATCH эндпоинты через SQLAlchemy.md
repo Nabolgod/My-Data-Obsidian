@@ -31,7 +31,7 @@ async def patch_hotel(
     return {"status": "success", "message": f"Отель {hotel_id} частично обновлен"}
 ```
 
-При работе с PATCH методами нужно понимать работу с [[pydantic]].
+При работе с PATCH методами нужно понимать работу с [[Pydantic]].
 ```python
 from pydantic import BaseModel, Field  
   

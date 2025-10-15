@@ -1,5 +1,4 @@
 Запросы можно продебажить несколькими способами:
-
 ### Первый способ
 ```python
 from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
@@ -16,7 +15,6 @@ class Base(DeclarativeBase):
 Через флаг <mark style="background: #FFF3A3A6;">echo=True</mark>, то:
 ![[Снимок экрана 2025-10-04 в 22.48.53.png]]
 Алхимия в консоли выводит информацию работы с БД. Тут можно увидеть строку сырого запроса, который вызывается в [[БД]].
-
 ## Второй способ
 ```python
 async with async_session_maker() as session:
