@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Эндпоинты/Роутеры.md",
+                "file": "FastAPI/Pydantic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Роутеры"
+              "title": "Pydantic"
             }
           }
         ]
@@ -194,8 +194,14 @@
   },
   "active": "416d61a192db9bef",
   "lastOpenFiles": [
-    "Именования/main.md",
+    "Паттерны/Репозиторий (DAO).md",
+    "FastAPI/Pydantic.md",
     "FastAPI/Эндпоинты/Роутеры.md",
+    "FastAPI/Документация/В роутере.md",
+    "Images/Pasted image 20251016060619.png",
+    "FastAPI/Документация/В эндпоинтах.md",
+    "FastAPI/Документация/В полях заполнения.md",
+    "Именования/main.md",
     "Именования/src.md",
     "Именования/query.md",
     "Именования/stmt.md",
@@ -215,11 +221,6 @@
     "FastAPI/Что такое Depends в FastAPI.md",
     "FastAPI/API.md",
     "FastAPI/DEBUG запросов SQLAclchemy.md",
-    "FastAPI/Engine.md",
-    "FastAPI/FastAPI.md",
-    "FastAPI/Model.md",
-    "FastAPI/Pydantic.md",
-    "FastAPI/SQLAlchemy.md",
     "FastAPI/Документация",
     "FastAPI/Эндпоинты",
     "FastAPI/Параметры запросов",
