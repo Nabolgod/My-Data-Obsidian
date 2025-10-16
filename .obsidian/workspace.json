@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Документация/В эндпоинтах.md",
+                "file": "FastAPI/Зависимости.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "В эндпоинтах"
+              "title": "Зависимости"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "416d61a192db9bef",
   "lastOpenFiles": [
-    "FastAPI/Документация/В полях заполнения.md",
     "FastAPI/Документация/В эндпоинтах.md",
+    "FastAPI/Документация/В полях заполнения.md",
     "FastAPI/Параметры запросов/QUERY-параметры.md",
     "FastAPI/Параметры запросов/PATH-параметры.md",
     "FastAPI/Параметры запросов/BODY-запросы.md",
