@@ -54,11 +54,34 @@ class Hotel(BaseModel): # теперь всё хорошо
 	title: str
 	name: str
 
-@router.post("") # здесь по умолчанию стоит адрес /hotels
+@app.post("") 
 def create_hotel(
 	hotel_data: Hotel
 ):
     return hotels
+```
+
+<mark style="background: #ABF7F7A6;">Field</mark> - используется для более глубокой валидации и имеет много параметров, например:
+	<mark style="background: #BBFABBA6;">ge</mark> - больше или равно
+	<mark style="background: #BBFABBA6;">le</mark> - меньше или равно
+	<mark style="background: #BBFABBA6;">default</mark> - для значений по умолчанию
+	<mark style="background: #BBFABBA6;">max_length</mark> - максимальная длина строки
+	<mark style="background: #BBFABBA6;">min_length</mark> - минимальная длина строки
+
+<mark style="background: #ABF7F7A6;">EmailStr</mark> - специальный тип для валидации email.
+
+<mark style="background: #ABF7F7A6;">ConfigDict</mark> - конфиг для pydantic-схемы, задающий определённые правила работы с ней, имеет параметры:
+	<mark style="background: #BBFABBA6;">from_attributes</mark> - параметр функции model_validate, который позволит достать аттрибуты объекта в виде словаря
+	<mark style="background: #BBFABBA6;">extra="forbit"</mark> - запрещает передавать дополнительные параметры в pydantic-схему
+
+Если какие-то данные будут неправильно введены, то pydantic сгенерирует очень подробную ошибку.
+```python
+from pydantic import BaseModel, EmailStr
+
+class UserSchema(BaseModel):
+	email: EmailStr
+	bio: str | None = Field(min_length=1, max_length=1000)
+	age: int = Field(ge=0, le=100)
 ```
 
 [[PATH-параметры]] и pydantic-схемы можно комбинировать:
