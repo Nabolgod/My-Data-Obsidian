@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Эндпоинты/Роутеры.md",
+                "file": "FastAPI/Валидация данных/Pydantic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Роутеры"
+              "title": "Pydantic"
             }
           }
         ]
@@ -194,16 +194,18 @@
   },
   "active": "416d61a192db9bef",
   "lastOpenFiles": [
+    "FastAPI/Пагинация и фильтрация.md",
+    "FastAPI/Эндпоинты/GET эндпоинты через SQLAlchemy.md",
     "FastAPI/Валидация данных/Pydantic.md",
+    "Базы Данных/Model.md",
     "FastAPI/Параметры запросов/BODY-запросы.md",
-    "FastAPI/Параметры запросов/QUERY-параметры.md",
     "FastAPI/Параметры запросов/PATH-параметры.md",
+    "FastAPI/Эндпоинты/Роутеры.md",
+    "FastAPI/Параметры запросов/QUERY-параметры.md",
     "FastAPI/Валидация данных",
     "FastAPI/Без названия.md",
     "FastAPI/FastAPI.md",
-    "FastAPI/Model.md",
     "FastAPI/Подготовка окружения для проекта.md",
-    "FastAPI/Пагинация и фильтрация.md",
     "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
     "FastAPI/Обрабатка исключений FastAPI.md",
     "FastAPI/Миграции Alembic.md",
@@ -211,7 +213,6 @@
     "FastAPI/Загрузка файлов на FastAPI.md",
     "FastAPI/Зависимости.md",
     "Паттерны/Репозиторий (DAO).md",
-    "FastAPI/Эндпоинты/Роутеры.md",
     "FastAPI/Документация/В роутере.md",
     "Images/Pasted image 20251016060619.png",
     "FastAPI/Документация/В эндпоинтах.md",
@@ -221,7 +222,6 @@
     "Именования/query.md",
     "Именования/stmt.md",
     "FastAPI/Эндпоинты/Сравнение синхронных и асинхронных эндпоинтов.md",
-    "FastAPI/Session.md",
     "FastAPI/Документация",
     "FastAPI/Эндпоинты",
     "FastAPI/Параметры запросов",
