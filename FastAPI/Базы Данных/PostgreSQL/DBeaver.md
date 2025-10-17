@@ -10,3 +10,5 @@ DBeaver — это одна из самых удобных программ дл
 - Windows: [https://practicum.yandex.ru/blog/menedzher-baz-dannyh-dbeaver/](https://practicum.yandex.ru/blog/menedzher-baz-dannyh-dbeaver)
 - Ubuntu: [https://losst.pro/ustanovka-dbeaver-v-ubuntu-22-04](https://losst.pro/ustanovka-dbeaver-v-ubuntu-22-04)
 - MacOS: [https://dbeaver.io/download/](https://dbeaver.io/download) (скачайте и запустите)
+
+В бобре можно создать подкючение к кластеру БД (например локальному), в котором можно содержать несколько БД.
