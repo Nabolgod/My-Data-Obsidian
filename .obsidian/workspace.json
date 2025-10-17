@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Базы Данных/PostgreSQL/Транзакция.md",
+                "file": "FastAPI/Базы Данных/Alembic/Alembic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Транзакция"
+              "title": "Alembic"
             }
           }
         ]
@@ -194,10 +194,13 @@
   },
   "active": "416d61a192db9bef",
   "lastOpenFiles": [
-    "FastAPI/Базы Данных/Подключение к PostgreSQL через SQLAlchemy.md",
+    "Git/Git.md",
     "FastAPI/Базы Данных/PostgreSQL/Транзакция.md",
-    "FastAPI/Базы Данных/Переменные окружения.md",
+    "FastAPI/Базы Данных/Подключение к PostgreSQL через SQLAlchemy.md",
     "FastAPI/Базы Данных/SQLAlchemy/Session.md",
+    "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
+    "FastAPI/Базы Данных/Alembic/Alembic.md",
+    "FastAPI/Базы Данных/Переменные окружения.md",
     "FastAPI/Базы Данных/Пагинация и фильтрация.md",
     "FastAPI/Базы Данных/SQLAlchemy/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "FastAPI/Базы Данных/SQLAlchemy/Модуль func.md",
@@ -217,9 +220,6 @@
     "FastAPI/Валидация данных/Что такое Depends в FastAPI.md",
     "FastAPI/Валидация данных/Пагинация с Depends.md",
     "FastAPI/Организация/Именования/gitignore.md",
-    "FastAPI/Организация/Запуск FastAPI.md",
-    "FastAPI/Организация/Зависимости.md",
-    "FastAPI/Организация/Именования/src.md",
     "Images/Pasted image 20251017214659.png",
     "FastAPI/Базы Данных/PostgreSQL",
     "FastAPI/Базы Данных/Alembic",
