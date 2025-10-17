@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Зависимости.md",
+                "file": "FastAPI/Эндпоинты/Роутеры.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Зависимости"
+              "title": "Роутеры"
             }
           }
         ]
@@ -194,7 +194,22 @@
   },
   "active": "416d61a192db9bef",
   "lastOpenFiles": [
-    "FastAPI/Pydantic.md",
+    "FastAPI/Валидация данных/Pydantic.md",
+    "FastAPI/Параметры запросов/BODY-запросы.md",
+    "FastAPI/Параметры запросов/QUERY-параметры.md",
+    "FastAPI/Параметры запросов/PATH-параметры.md",
+    "FastAPI/Валидация данных",
+    "FastAPI/Без названия.md",
+    "FastAPI/FastAPI.md",
+    "FastAPI/Model.md",
+    "FastAPI/Подготовка окружения для проекта.md",
+    "FastAPI/Пагинация и фильтрация.md",
+    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
+    "FastAPI/Обрабатка исключений FastAPI.md",
+    "FastAPI/Миграции Alembic.md",
+    "FastAPI/Запуск FastAPI.md",
+    "FastAPI/Загрузка файлов на FastAPI.md",
+    "FastAPI/Зависимости.md",
     "Паттерны/Репозиторий (DAO).md",
     "FastAPI/Эндпоинты/Роутеры.md",
     "FastAPI/Документация/В роутере.md",
@@ -205,22 +220,8 @@
     "Именования/src.md",
     "Именования/query.md",
     "Именования/stmt.md",
-    "FastAPI/Запуск FastAPI.md",
     "FastAPI/Эндпоинты/Сравнение синхронных и асинхронных эндпоинтов.md",
     "FastAPI/Session.md",
-    "FastAPI/Зависимости.md",
-    "FastAPI/Загрузка файлов на FastAPI.md",
-    "FastAPI/Миграции Alembic.md",
-    "FastAPI/Обрабатка исключений FastAPI.md",
-    "FastAPI/Отношение многие-ко-многим в SQLAlchemy.md",
-    "FastAPI/Пагинация и фильтрация.md",
-    "FastAPI/Подготовка окружения для проекта.md",
-    "FastAPI/Преимущества и недостатки FastAPI.md",
-    "FastAPI/Статус коды в FastAPI.md",
-    "FastAPI/Транзакции и откаты (rollback) в SQLAlchemy.md",
-    "FastAPI/Что такое Depends в FastAPI.md",
-    "FastAPI/API.md",
-    "FastAPI/DEBUG запросов SQLAclchemy.md",
     "FastAPI/Документация",
     "FastAPI/Эндпоинты",
     "FastAPI/Параметры запросов",
@@ -239,7 +240,6 @@
     "Images/Снимок экрана 2025-10-04 в 23.09.11.png",
     "Images/Снимок экрана 2025-10-04 в 23.14.42.png",
     "Базы Данных",
-    "Images",
     "Работа с Obsydian/Без названия.canvas"
   ]
 }

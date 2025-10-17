@@ -14,6 +14,8 @@ def create_hitel(
 	return {"status": "ok"}
 ```
 
+^80fae4
+
 У объектов Body() есть параметры, например:
 	Body(<mark style="background: #D2B3FFA6;">embed=True</mark>), который переводит вывод в json-виде
 	Body(<mark style="background: #D2B3FFA6;">default="значение по умолчанию"</mark>)
