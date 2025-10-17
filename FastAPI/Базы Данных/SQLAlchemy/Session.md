@@ -14,6 +14,7 @@ async with async_session_maker() as session:
 ```
 
 Почему важно делать <mark style="background: #FF5582A6;">session.commit</mark>() в конце транзакции, а не например внутри метода [[Репозиторий (DAO)]].
+
 Логика простая, внутри одной сессии может быть несколько транзакций:
 ```python
 async with async_session_maker() as session:

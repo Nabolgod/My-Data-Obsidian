@@ -8,3 +8,5 @@ brew install postgresql
 createuser -s postgres
 brew services restart postgresql
 ```
+
+Для работы с PostgreSQL можно выбрать среди [psycopg2](https://github.com/psycopg/psycopg2), [asyncpg](https://github.com/MagicStack/asyncpg), [aiopg](https://github.com/aio-libs/aiopg). Для синхронной работы с Postgres используется psycopg2, для асинхронной — обычно asyncpg, реже aiopg
