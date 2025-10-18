@@ -7,7 +7,7 @@
 ';DROP TABLE hotels; --'
 ```
 
-Это проблема, которая возникает не на всех [[engine]], например на "**postgresql+asyncpg**":
+Это проблема, которая возникает не на всех [[Engine]], например на "**postgresql+asyncpg**":
 ```python
 from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine  
 from src.config import settings  
