@@ -21,10 +21,11 @@ class RoomsORM(Base):
 ```
 С помощью консольной команды:
 	*alembic revision --autogenerate -m "Текст коммита"*
-Мы таким образом генерируем новую [[миграцию]].
+
+<mark style="background: #FFF3A3A6;">revision --autogenerate</mark> - этот флаг позволяет [[Alembic]] сравить состояние базы данных и кодовой базы.
+Мы таким образом генерируем новую [[Миграции]]
 
 Вид миграции:
-
 ```python
 """initial migration rooms  
   
