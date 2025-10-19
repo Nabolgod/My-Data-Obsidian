@@ -89,3 +89,13 @@ from src.database import Base
 from src.models.hotels import HotelsORM  
 from src.models.rooms import RoomsORM 
 ```
+
+Необходимо переопределить [[config]], чтобы не было ошибки с [[alembic.ini]] в этом нам помогут [[Переменные окружения]]:
+```python
+from src.config import settings
+
+config = context.config  
+config.set_main_option("sqlalchemy.url", f"{settings.DB_URL}?async_fallback=True")
+```
+<mark style="background: #ABF7F7A6;">sqlalchemy.url</mark> - название параметра, который переопределяем (он отображается в [[alembic.ini#^ef44bc]]).
+?async_fallback=True - параметр, чтобы избежать проблем с асинхронными движками в [[Alembic]]. Т.к. миграции процесс синхронный и занимает время, а это нам позволяет движку asyncpg работать в синхронном режиме. 

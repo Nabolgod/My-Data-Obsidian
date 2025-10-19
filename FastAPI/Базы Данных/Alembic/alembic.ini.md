@@ -150,10 +150,15 @@ datefmt = %H:%M:%S
 ```
 
 <mark style="background: #FFF3A3A6;">script_location = %(here)s/src/migrations</mark>  - путь до миграций, который указывается при инициализации [[Конвертация в SQL-скрипт#^4c9612]]. При изменении местоположения папки migrations важно обновлять этот параметр.
+
 <mark style="background: #FFF3A3A6;">prepend_sys_path = . src</mark> - критически важный параметр, чтобы избежать любых ошибок с [[Alembic]], переменная говорит какие папки нужно добавить интерпретатору в область видимости ([[Импорты]]), этой записью мы добавляем папку src в системную область видимости.
+
 <mark style="background: #FFF3A3A6;">path_separator = space</mark> - также критически важный параметр, чтобы не возникало ошибок.
 ```цитата
 В описании поля prepend_sys_path, в которое мы дописывали src, было сказано, что "для multiple paths, разделитель определен by path_separator ниже". У меня в path_separator было значение "os", поменял на "space", и все заработало.
 
 01 августа 2025, 17:46
 ```
+
+<mark style="background: #FFF3A3A6;">sqlalchemy.url = driver://user:pass@localhost/dbname</mark> - задание драйвера. По умолчанию может быть заполнено некорректными данными. Это мы должны переопределить через [[config]] в файле [[env.py]]. ^ef44bc
+
