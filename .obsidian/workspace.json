@@ -11,10 +11,14 @@
             "id": "f0e6737fc04a0b8d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Миграции Alembic"
             }
           },
           {
