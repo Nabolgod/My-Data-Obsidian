@@ -162,3 +162,16 @@ datefmt = %H:%M:%S
 
 <mark style="background: #FFF3A3A6;">sqlalchemy.url = driver://user:pass@localhost/dbname</mark> - задание драйвера. По умолчанию может быть заполнено некорректными данными. Это мы должны переопределить через [[config]] в файле [[env.py]]. ^ef44bc
 
+Для того, чтобы [[Миграции Alembic]] создавались по стандарту [[PEP8]] необходимо расскоментировать эти строки, а также установим форматировщик black:
+```python
+hooks = black  
+black.type = console_scripts  
+black.entrypoint = black  
+black.options = -l 88 REVISION_SCRIPT_FILENAME  # указываем 88 символов в одной строке (чаще используют)
+```
+
+Для того, что в названиях миграций отображались даты, раскомментируем данную строку:
+```python
+file_template = %%(year)d_%%(month).2d_%%(day).2d_%%(hour).2d%%(minute).2d-%%(rev)s_%%(slug)s  
+```
+![[Pasted image 20251020054023.png]]

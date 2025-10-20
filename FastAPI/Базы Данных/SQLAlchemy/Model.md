@@ -27,7 +27,7 @@ class HotelsORM(Base):
 	__tablename__ = "hotels"
 	
 	# указываем столбцы нашей таблицы
-	id: Mapped[int] = mapped_column()
+	id: Mapped[int] = mapped_column(primary_key=True)
 	title: Mapped[str] = mapped_column(String(length=100))
 	location: Mapped[str] = mapped_column()
 ```
@@ -44,3 +44,24 @@ class HotelsORM(Base):
 Порядок всегда такой.
 
 Мы создали модель сущности, которая будет отображать реальную таблицу в базу данных.
+
+Создадим вторую модель, которая будет связана с HotelsORM через внешний ключ:
+```python
+from src.database import Base
+from sqalchemy.orm import Mapped, mapped_column
+from sqlalchemy import String, ForeignKey
+
+class RoomsORM(Base):
+	__tablename__ = "rooms"
+	
+	id: Mapped[int] = mapped_column(primary_key=True)
+	hotel_id: Mapped[int] = mapped_column(ForeignKey("hotel.id"))
+	title: Mapped[str] = mapped_column()
+	description: Mapped[str | None] = mapped_column(nullable=True) # одно и то же
+	price: Mapped[int] = mapped_column()
+	quantity: Mapped[int] = mapped_column()
+```
+
+<mark style="background: #ABF7F7A6;">ForeignKey("hotel.id")</mark> - тип внешнего ключа, внутри скобок указывается название_таблицы и поля, которое будет внешним ключом.
+
+Параметры бывают опциональные, например **description**, указывается через \[str | None\] или через nullable=True.

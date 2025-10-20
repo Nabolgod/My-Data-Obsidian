@@ -87,3 +87,5 @@ def downgrade() -> None:
 4. Создать начальную миграцию заново:
    *alembic revision --autogenerate -m "initial"*
    *alembic upgrade head*
+
+Миграции можно привести к опрятному видуу (нейминг и стандарт [[PEP8]]), для этого нужно внести некоторые изменения в [[alembic.ini]].
