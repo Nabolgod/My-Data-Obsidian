@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
+                "file": "FastAPI/Эндпоинты/PATCH эндпоинты через SQLAlchemy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Организация хранения данных в памяти программы"
+              "title": "PATCH эндпоинты через SQLAlchemy"
             }
           }
         ]
@@ -194,10 +194,14 @@
   },
   "active": "76fbf2d6e3eb7204",
   "lastOpenFiles": [
-    "Python/Методы для работы со словарями.md",
-    "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
-    "Python/Методы для работы со множествами.md",
     "FastAPI/Эндпоинты/POST эндпоинты через SQLAlchemy.md",
+    "FastAPI/Параметры запросов/BODY-запросы.md",
+    "FastAPI/Параметры запросов/QUERY-параметры.md",
+    "FastAPI/Параметры запросов/PATH-параметры.md",
+    "FastAPI/Документация/OpenAPI.md",
+    "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
+    "Python/Методы для работы со словарями.md",
+    "Python/Методы для работы со множествами.md",
     "FastAPI/Эндпоинты/GET эндпоинты через SQLAlchemy.md",
     "FastAPI/Эндпоинты/PUT эндпоинты через SQLAlchemy.md",
     "FastAPI/Эндпоинты/PATCH эндпоинты через SQLAlchemy.md",
@@ -219,10 +223,6 @@
     "Images/Pasted image 20251020023935.png",
     "FastAPI/Базы Данных/PostgreSQL/DBeaver.md",
     "Images/Pasted image 20251020023405.png",
-    "FastAPI/Базы Данных/SQLAlchemy/Engine.md",
-    "FastAPI/Базы Данных/Переменные окружения.md",
-    "FastAPI/Организация/Именования/config.md",
-    "миграцию.md",
     "Images/Pasted image 20251017214659.png",
     "FastAPI/Базы Данных/PostgreSQL",
     "FastAPI/Базы Данных/Alembic",
