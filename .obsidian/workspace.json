@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
+                "file": "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Миграции Alembic"
+              "title": "Организация хранения данных в памяти программы"
             }
           },
           {
@@ -197,15 +197,19 @@
   },
   "active": "f0e6737fc04a0b8d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
+    "FastAPI/Базы Данных/Alembic/alembic.ini.md",
+    "FastAPI/Базы Данных/Alembic/env.py.md",
+    "FastAPI/Базы Данных/Alembic/Alembic.md",
     "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
+    "FastAPI/Базы Данных/Alembic/Конвертация в SQL-скрипт.md",
+    "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
+    "Алгоритмы и структуры данных/Сложность алгоритма.md",
+    "conflict-files-obsidian-git.md",
     "Images/Pasted image 20251020023935.png",
     "Images/Pasted image 20251020023405.png",
     "FastAPI/Организация/Именования/ORM.md",
     "FastAPI/Базы Данных/SQLAlchemy/Model.md",
-    "FastAPI/Базы Данных/Alembic/Конвертация в SQL-скрипт.md",
-    "FastAPI/Базы Данных/Alembic/env.py.md",
-    "FastAPI/Базы Данных/Alembic/alembic.ini.md",
     "FastAPI/Эндпоинты/Роутеры.md",
     "FastAPI/Документация/В роутере.md",
     "FastAPI/Организация/Именования/main.md",
@@ -221,10 +225,6 @@
     "FastAPI/Базы Данных/SQLAlchemy/Модуль func.md",
     "FastAPI/Базы Данных/PostgreSQL/PostgreSQL.md",
     "FastAPI/Базы Данных/PostgreSQL/DBeaver, меняем кодировку.md",
-    "FastAPI/Базы Данных/PostgreSQL/DBeaver.md",
-    "Работа с Obsydian/Связь.md",
-    "Работа с Obsydian/Таблица фрукты.md",
-    "Работа с Obsydian/Начало.md",
     "Работа с Obsydian/Без названия.canvas",
     "Images/Pasted image 20251017214659.png",
     "Images/Pasted image 20251017204036.png",
