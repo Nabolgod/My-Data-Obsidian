@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Организация хранения данных в памяти программы"
             }
+          },
+          {
+            "id": "5607b398c4403ab8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,8 +196,14 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f0e6737fc04a0b8d",
+  "active": "5607b398c4403ab8",
   "lastOpenFiles": [
+    "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
+    "conflict-files-obsidian-git.md",
+    "Python/Методы для работы со словарями.md",
+    "Python/Методы для работы со множествами.md",
+    "Python/PEP8.md",
+    "Images/Pasted image 20251020054023.png",
     "Алгоритмы и структуры данных/Понятие алгоритма. Свойства алгоритма..md",
     "Алгоритмы и структуры данных/Сложность алгоритма.md",
     "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
@@ -191,11 +212,9 @@
     "ООП Виноградов/Перегрузка.md",
     "ООП Виноградов/Наследование и Полиморфизм.md",
     "ООП Виноградов/Инкапсуляция.md",
-    "Алгоритмы и структуры данных/Организация хранения данных в памяти программы.md",
     "FastAPI/Базы Данных/Alembic/alembic.ini.md",
     "FastAPI/Базы Данных/Alembic/env.py.md",
     "FastAPI/Базы Данных/Alembic/Alembic.md",
-    "conflict-files-obsidian-git.md",
     "Images/Pasted image 20251020023935.png",
     "Images/Pasted image 20251020023405.png",
     "FastAPI/Организация/Именования/ORM.md",
@@ -208,9 +227,6 @@
     "FastAPI/Базы Данных/Переменные окружения.md",
     "FastAPI/Базы Данных/Пагинация и фильтрация.md",
     "FastAPI/Базы Данных/Миграции.md",
-    "FastAPI/Базы Данных/SQLAlchemy/Session.md",
-    "FastAPI/Базы Данных/SQLAlchemy/Engine.md",
-    "FastAPI/Базы Данных/SQLAlchemy/DEBUG запросов SQLAclchemy.md",
     "Работа с Obsydian/Без названия.canvas",
     "Images/Pasted image 20251017214659.png",
     "Images/Pasted image 20251017204036.png",
@@ -228,7 +244,6 @@
     "Images/Pasted image 20251012144947.png",
     "Images/Pasted image 20251012144932.png",
     "Images/Pasted image 20251012144848.png",
-    "Images/Pasted image 20251009012257.png",
-    "Images/Снимок экрана 2025-10-04 в 23.14.42.png"
+    "Images/Pasted image 20251009012257.png"
   ]
 }
