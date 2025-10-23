@@ -5,7 +5,7 @@
 from fastapi import FastAPI, Body
 
 @app.post("/hotels")
-def create_hitel(
+def create_hotel(
 	title: str, # ошибка, т.к. это воспринимается как query-параметры
 	title: str = Body(embed=True), # теперь правильно
 	location: str | None = Body(default=None, emded=True)
