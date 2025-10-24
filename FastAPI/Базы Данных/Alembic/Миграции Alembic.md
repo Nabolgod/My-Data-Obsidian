@@ -1,7 +1,6 @@
 Две важные консольные команды, чтобы накатить изменения в БД.
 
 После создания модели данных:
-
 ```python
 from src.database import Base  
 from sqlalchemy.orm import Mapped, mapped_column  
@@ -22,7 +21,7 @@ class RoomsORM(Base):
 С помощью консольной команды:
 	*alembic revision --autogenerate -m "Текст коммита"*
 
-<mark style="background: #FFF3A3A6;">revision --autogenerate</mark> - этот флаг позволяет [[Alembic]] сравить состояние базы данных и кодовой базы.
+<mark style="background: #FFF3A3A6;">revision --autogenerate</mark> - этот флаг позволяет [[Alembic]] сравить состояние базы данных и кодовой базы. Команду важно проводить из корня проекта.
 Мы таким образом генерируем новую [[Миграции].
 
 После появляются логи, которые будут указывать на успешное создание миграции:

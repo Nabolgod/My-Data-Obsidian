@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FastAPI/Авторизация и аутентификация/Регистрация пользователей/Создание модели пользователей.md",
+                "file": "FastAPI/Авторизация и аутентификация/Регистрация пользователей/Флоу авто-ции и ауте-ции.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Создание модели пользователей"
+              "title": "Флоу авто-ции и ауте-ции"
             }
           }
         ]
@@ -192,13 +192,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76fbf2d6e3eb7204",
+  "active": "7265e290be1ae368",
   "lastOpenFiles": [
+    "Images/Pasted image 20251024052951.png",
+    "Images/Pasted image 20251024052128.png",
+    "Images/Pasted image 20251024042858.png",
+    "Images/Pasted image 20251024051412.png",
+    "FastAPI/Авторизация и аутентификация/Регистрация пользователей/Флоу авто-ции и ауте-ции.md",
+    "FastAPI/Авторизация и аутентификация/Регистрация пользователей/Создание модели пользователей.md",
+    "FastAPI/Авторизация и аутентификация/Авторизация и аутентификация.md",
+    "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
     "FastAPI/Базы Данных/SQLAlchemy/Model.md",
+    "FastAPI/Базы Данных/Миграции.md",
     "FastAPI/Базы Данных/Подключение к PostgreSQL через SQLAlchemy.md",
     "FastAPI/Базы Данных/SQL-инъекции.md",
     "FastAPI/Базы Данных/Alembic/Конвертация в SQL-скрипт.md",
-    "FastAPI/Базы Данных/Alembic/Миграции Alembic.md",
     "FastAPI/Базы Данных/Alembic/Alembic.md",
     "FastAPI/Базы Данных/Alembic/alembic.ini.md",
     "FastAPI/Базы Данных/Alembic/env.py.md",
@@ -215,14 +223,8 @@
     "FastAPI/Базы Данных/SQLAlchemy/Engine.md",
     "FastAPI/Базы Данных/SQLAlchemy/Транзакции и откаты (rollback) в SQLAlchemy.md",
     "FastAPI/Базы Данных/SQLAlchemy/Модуль func.md",
-    "FastAPI/Авторизация и аутентификация/Регистрация пользователей/Создание модели пользователей.md",
-    "FastAPI/Авторизация и аутентификация/Авторизация и аутентификация.md",
     "FastAPI/Авторизация и аутентификация/Регистрация пользователей",
-    "Pasted image 20251024042858.png",
-    "FastAPI/Паттерны/DataMapper.md",
     "FastAPI/Авторизация и аутентификация",
-    "FastAPI/Без названия.md",
-    "conflict-files-obsidian-git.md",
     "FastAPI/Фишки для проекта",
     "Images/Pasted image 20251020054023.png",
     "Images/Pasted image 20251020023935.png",
@@ -237,8 +239,6 @@
     "Images/Pasted image 20251017204036.png",
     "Images/Pasted image 20251016060619.png",
     "Images/Pasted image 20251012144947.png",
-    "Images/Pasted image 20251012144932.png",
-    "Images/Pasted image 20251012144848.png",
     "FastAPI/Организация",
     "FastAPI/Валидация данных",
     "FastAPI/Документация"
